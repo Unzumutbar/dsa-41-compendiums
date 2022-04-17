@@ -1,0 +1,45 @@
+{
+    "name": "dsa-4.1-equipment",
+    "title": "Das Schwarze Auge 4.1 - Ausrüstungen",
+    "description": "Das Schwarze Auge 4.1 Ausrüstungen für das Foundry Virtual TableTop System",
+    "version": "1.0.0",
+    "author": "Unzumutbar",
+    "minimumCoreVersion": "0.8.6",
+    "compatibleCoreVersion": "9",
+    "packs": [
+        {
+            "name": "meleeweapon",
+            "label": "Nahkampfwaffen",
+            "path": "./packs/meleeweapon.db",
+            "type": "Item",
+            "entity": "Item",
+            "module": "dsa-4.1"
+        },
+        {
+            "name": "rangedweapon",
+            "label": "Fernkampfwaffen",
+            "path": "./packs/rangedweapon.db",
+            "type": "Item",
+            "entity": "Item",
+            "module": "dsa-4.1"
+        },
+        {
+            "name": "shield",
+            "label": "Schilde",
+            "path": "./packs/shield.db",
+            "type": "Item",
+            "entity": "Item",
+            "module": "dsa-4.1"
+        },
+        {
+            "name": "armor",
+            "label": "Rüstungen",
+            "path": "./packs/armor.db",
+            "type": "Item",
+            "entity": "Item",
+            "module": "dsa-4.1"
+        }
+    ],
+    "manifest": "https://github.com/Unzumutbar/dsa-4.1-equipment/-/raw/main/module.json",
+    "download": "https://github.com/Unzumutbar/dsa-4.1-equipment/-/raw/main/my-content-module.zip"
+  }
