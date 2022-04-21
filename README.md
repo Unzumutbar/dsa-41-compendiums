@@ -15,7 +15,6 @@ dsa-41-compendiums
 │   │   armor.db
 │   │   liturgy.db
 │   │   meleeweapon.db
-│   │   meleeweapon.db
 │   │   rangedweapon.db
 │   │   shield.db
 │   │   
