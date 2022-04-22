@@ -13,6 +13,7 @@ dsa-41-compendiums
 │
 └───packs
 │   │   armor.db
+│   │   equipment.db
 │   │   liturgy.db
 │   │   meleeweapon.db
 │   │   rangedweapon.db

@@ -46,6 +46,14 @@
             "type": "Item",
             "entity": "Item",
             "module": "dsa-4.1-compendiums"
+        },
+        {
+            "name": "equipment",
+            "label": "Ausrüstung",
+            "path": "./packs/equipment.db",
+            "type": "Item",
+            "entity": "Item",
+            "module": "dsa-4.1-compendiums"
         }
     ],
     "manifest": "https://github.com/Unzumutbar/dsa-4.1-equipment/-/raw/main/module.json",
