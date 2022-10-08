@@ -1,0 +1,18 @@
+{
+  "name": "dsa-41-compendiums",
+  "version": "1.0.0",
+  "description": "Das Schwarze Auge 4.1 Ausrüstungen für das Foundry Virtual TableTop System",
+  "main": "module.json",
+  "scripts": {
+    "version": "node automation/release.js && git add module.json",
+    "postversion": "git push && git push --tags",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Oromis/dsa-41-compendiums.git"
+  },
+  "author": "Unzumutbar",
+  "license": "ISC",
+  "homepage": "https://github.com/Unzumutbar/dsa-41-compendiums#readme"
+}

@@ -3,9 +3,18 @@
     "title": "DSA 4.1 Kompendien",
     "description": "Das Schwarze Auge 4.1 Ausrüstungen für das Foundry Virtual TableTop System",
     "version": "1.0.0",
-    "author": "Unzumutbar",
+    "authors": [
+        {
+            "id": "unzumutbar",
+            "name": "Unzumutbar"
+        }
+    ],
     "minimumCoreVersion": "0.8.6",
-    "compatibleCoreVersion": "9",
+    "compatibleCoreVersion": "10",
+    "compatibility": {
+        "minimum": 8,
+        "verified": 10
+    },
     "packs": [
         {
             "name": "meleeweapon",
@@ -13,6 +22,7 @@
             "path": "./packs/meleeweapon.db",
             "type": "Item",
             "entity": "Item",
+            "system": "dsa-41",
             "module": "dsa-4.1-compendiums"
         },
         {
@@ -21,6 +31,7 @@
             "path": "./packs/rangedweapon.db",
             "type": "Item",
             "entity": "Item",
+            "system": "dsa-41",
             "module": "dsa-4.1-compendiums"
         },
         {
@@ -29,6 +40,7 @@
             "path": "./packs/shield.db",
             "type": "Item",
             "entity": "Item",
+            "system": "dsa-41",
             "module": "dsa-4.1-compendiums"
         },
         {
@@ -37,6 +49,7 @@
             "path": "./packs/armor.db",
             "type": "Item",
             "entity": "Item",
+            "system": "dsa-41",
             "module": "dsa-4.1-compendiums"
         },
         {
@@ -45,6 +58,7 @@
             "path": "./packs/liturgy.db",
             "type": "Item",
             "entity": "Item",
+            "system": "dsa-41",
             "module": "dsa-4.1-compendiums"
         },
         {
@@ -53,6 +67,7 @@
             "path": "./packs/equipment.db",
             "type": "Item",
             "entity": "Item",
+            "system": "dsa-41",
             "module": "dsa-4.1-compendiums"
         }
     ],
