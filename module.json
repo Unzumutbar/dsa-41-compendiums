@@ -1,61 +1,76 @@
 {
-    "name": "dsa-41-compendiums",
-    "title": "DSA 4.1 Kompendien",
-    "description": "Das Schwarze Auge 4.1 Ausrüstungen für das Foundry Virtual TableTop System",
-    "version": "1.0.0",
-    "author": "Unzumutbar",
-    "minimumCoreVersion": "0.8.6",
-    "compatibleCoreVersion": "9",
-    "packs": [
-        {
-            "name": "meleeweapon",
-            "label": "Nahkampfwaffen",
-            "path": "./packs/meleeweapon.db",
-            "type": "Item",
-            "entity": "Item",
-            "module": "dsa-4.1-compendiums"
-        },
-        {
-            "name": "rangedweapon",
-            "label": "Fernkampfwaffen",
-            "path": "./packs/rangedweapon.db",
-            "type": "Item",
-            "entity": "Item",
-            "module": "dsa-4.1-compendiums"
-        },
-        {
-            "name": "shield",
-            "label": "Schilde",
-            "path": "./packs/shield.db",
-            "type": "Item",
-            "entity": "Item",
-            "module": "dsa-4.1-compendiums"
-        },
-        {
-            "name": "armor",
-            "label": "Rüstungen",
-            "path": "./packs/armor.db",
-            "type": "Item",
-            "entity": "Item",
-            "module": "dsa-4.1-compendiums"
-        },
-        {
-            "name": "liturgy",
-            "label": "Liturgien",
-            "path": "./packs/liturgy.db",
-            "type": "Item",
-            "entity": "Item",
-            "module": "dsa-4.1-compendiums"
-        },
-        {
-            "name": "equipment",
-            "label": "Ausrüstung",
-            "path": "./packs/equipment.db",
-            "type": "Item",
-            "entity": "Item",
-            "module": "dsa-4.1-compendiums"
-        }
-    ],
-    "manifest": "https://github.com/Unzumutbar/dsa-4.1-equipment/-/raw/main/module.json",
-    "download": "https://github.com/Unzumutbar/dsa-4.1-equipment/-/raw/main/dsa-41-compendiums.zip"
-  }
+  "name": "dsa-41-compendiums",
+  "title": "DSA 4.1 Kompendien",
+  "description": "Das Schwarze Auge 4.1 Ausrüstungen für das Foundry Virtual TableTop System",
+  "version": "1.1.0",
+  "authors": [
+    {
+      "id": "unzumutbar",
+      "name": "Unzumutbar"
+    }
+  ],
+  "minimumCoreVersion": "0.8.6",
+  "compatibleCoreVersion": "10",
+  "compatibility": {
+    "minimum": 8,
+    "verified": 10
+  },
+  "packs": [
+    {
+      "name": "meleeweapon",
+      "label": "Nahkampfwaffen",
+      "path": "./packs/meleeweapon.db",
+      "type": "Item",
+      "entity": "Item",
+      "system": "dsa-41",
+      "module": "dsa-4.1-compendiums"
+    },
+    {
+      "name": "rangedweapon",
+      "label": "Fernkampfwaffen",
+      "path": "./packs/rangedweapon.db",
+      "type": "Item",
+      "entity": "Item",
+      "system": "dsa-41",
+      "module": "dsa-4.1-compendiums"
+    },
+    {
+      "name": "shield",
+      "label": "Schilde",
+      "path": "./packs/shield.db",
+      "type": "Item",
+      "entity": "Item",
+      "system": "dsa-41",
+      "module": "dsa-4.1-compendiums"
+    },
+    {
+      "name": "armor",
+      "label": "Rüstungen",
+      "path": "./packs/armor.db",
+      "type": "Item",
+      "entity": "Item",
+      "system": "dsa-41",
+      "module": "dsa-4.1-compendiums"
+    },
+    {
+      "name": "liturgy",
+      "label": "Liturgien",
+      "path": "./packs/liturgy.db",
+      "type": "Item",
+      "entity": "Item",
+      "system": "dsa-41",
+      "module": "dsa-4.1-compendiums"
+    },
+    {
+      "name": "equipment",
+      "label": "Ausrüstung",
+      "path": "./packs/equipment.db",
+      "type": "Item",
+      "entity": "Item",
+      "system": "dsa-41",
+      "module": "dsa-4.1-compendiums"
+    }
+  ],
+  "manifest": "https://raw.githubusercontent.com/Oromis/dsa-41-compendiums/main/module.json",
+  "download": "https://github.com/Oromis/dsa-41-compendiums/releases/download/v1.1.0/dsa-41-compendiums-v1.1.0.zip"
+}
