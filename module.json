@@ -71,6 +71,6 @@
       "module": "dsa-4.1-compendiums"
     }
   ],
-  "manifest": "https://raw.githubusercontent.com/Oromis/dsa-41-compendiums/main/module.json",
-  "download": "https://github.com/Oromis/dsa-41-compendiums/releases/download/v1.1.0/dsa-41-compendiums-v1.1.0.zip"
+  "manifest": "https://raw.githubusercontent.com/Unzumutbar/dsa-41-compendiums/main/module.json",
+  "download": "https://github.com/Unzumutbar/dsa-41-compendiums/releases/download/v1.1.0/dsa-41-compendiums-v1.1.0.zip"
 }
