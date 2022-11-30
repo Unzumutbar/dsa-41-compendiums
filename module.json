@@ -2,7 +2,7 @@
   "name": "dsa-41-compendiums",
   "title": "DSA 4.1 Kompendien",
   "description": "Das Schwarze Auge 4.1 Ausrüstungen für das Foundry Virtual TableTop System",
-  "version": "1.1.0",
+  "version": "1.2.0",
   "authors": [
     {
       "id": "unzumutbar",
@@ -69,8 +69,17 @@
       "entity": "Item",
       "system": "dsa-41",
       "module": "dsa-4.1-compendiums"
+    },
+    {
+      "name": "animals",
+      "label": "Tiere",
+      "path": "./packs/animals.db",
+      "type": "Actor",
+      "entity": "Actor",
+      "system": "dsa-41",
+      "module": "dsa-4.1-compendiums"
     }
   ],
   "manifest": "https://raw.githubusercontent.com/Unzumutbar/dsa-41-compendiums/main/module.json",
-  "download": "https://github.com/Unzumutbar/dsa-41-compendiums/releases/download/v1.1.0/dsa-41-compendiums-v1.1.0.zip"
+  "download": "https://github.com/Unzumutbar/dsa-41-compendiums/releases/download/v1.2.0/dsa-41-compendiums-v1.2.0.zip"
 }
