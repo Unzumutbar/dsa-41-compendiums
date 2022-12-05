@@ -13,5 +13,5 @@ Kompatibel mit FoundryVTT v10!
 
 ## Credits
 
-Die Kompendien wurden vollständig von Unzumutbar erstellt. Dies ist ein Fork, der nach Möglichkeit wieder in das
-Originalprojekt gemerged werden sollte. Siehe das Original: https://github.com/Unzumutbar/dsa-41-compendiums.
+https://github.com/Oromis hat die Kompatibilität für Version 10 hinzugefügt und die Installation vereinfacht.
+Vielen Dank dafür.

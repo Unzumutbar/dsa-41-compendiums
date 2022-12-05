@@ -15,6 +15,12 @@
     "minimum": 8,
     "verified": 10
   },
+  "esmodules": [
+    "./scripts/index.js"
+  ],
+  "styles": [
+    "./css/journallink.css"
+  ],
   "packs": [
     {
       "name": "meleeweapon",
