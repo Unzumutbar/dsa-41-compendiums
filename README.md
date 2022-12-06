@@ -15,3 +15,8 @@ Kompatibel mit FoundryVTT v10!
 
 https://github.com/Oromis hat die Kompatibilität für Version 10 hinzugefügt und die Installation vereinfacht.
 Vielen Dank dafür.
+
+## Icons
+
+Icons provided under the Creative Commons 3.0 BY from `https://github.com/game-icons/icons`
+Icons made by [Delapouite](https://delapouite.com/), [Lorc](https://lorcblog.blogspot.com/), [Carl Olsen](https://twitter.com/unstoppableCarl),

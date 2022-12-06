@@ -8,7 +8,6 @@ export class JournalLink {
             return;
         }
 
-        //this.includeLinks(html, data.actor);
         const linksDiv = this.getHtmlLinkDiv(data.actor);
         if(linksDiv === undefined) {
             return;
@@ -46,15 +45,15 @@ export class JournalLink {
             return undefined;
         }
 
-        if(!this.isSourceBookValid(sourceBook)){
-            this.log(`Sourcebook is invalid: ${sourceBook}.`);
+        if(!this.isSourceBookValid(sourceBook, sourceBookPage)){
+            this.log(`Sourcebook is invalid: ${sourceBook}:${sourceBookPage}.`);
             return;
         }
 
         let linksDiv = $('<div class="journal-backlinks"></div>');
         let link = $(`<a class="content-link" draggable="true"></a>`);
         let icon = 'fas ';
-        icon += 'fa-user';
+        icon += 'fa-book';
 
         link.append($('<i class="' + icon + '"></i>'));
         link.append(' Quelle: ' + sourceBook + ' ' + sourceBookPage);
@@ -77,14 +76,10 @@ export class JournalLink {
     {
         switch (entityData.type) {
             case 'character':
-                return {
-                    'sourceBook': entityData.system.base.sourceBook,
-                    'sourceBookPage': entityData.system.base.sourceBookPage
-                };
             case 'genericItem':
                 return {
                     'sourceBook': entityData.system.sourceBook,
-                    'sourceBookPage': entityData.system.page
+                    'sourceBookPage': entityData.system.sourceBookPage
                 };
             case 'meleeWeapon':
             case 'rangedWeapon':
@@ -99,8 +94,8 @@ export class JournalLink {
         }
     }
 
-    isSourceBookValid(sourceBook) {
-        return sourceBook !== undefined && sourceBook.trim() !== ''; 
+    isSourceBookValid(sourceBook, sourceBookPage) {
+        return sourceBook && sourceBookPage && sourceBook.trim() !== ''; 
     }
 
     openPdfPage(sourceBook, page) {
