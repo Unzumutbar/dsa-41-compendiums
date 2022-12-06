@@ -16,12 +16,28 @@ Hooks.on("init", () => {
         default: true
     });
 
+    game.settings.register(MODULE_NAME, 'aaJournalName', {
+        name: 'Aventurisches Arsenal Journalname',
+        scope: 'world',
+        config: true,
+        type: String,
+        default: 'AA'
+    });
+
     game.settings.register(MODULE_NAME, 'aaOffset', {
         name: 'Aventurisches Arsenal PDF Offset',
         scope: 'world',
         config: true,
         type: Number,
         default: 1
+    });
+
+    game.settings.register(MODULE_NAME, 'avalmJournalName', {
+        name: 'Aventurischer Almanach Journalname',
+        scope: 'world',
+        config: true,
+        type: String,
+        default: 'AvAlm'
     });
 
     game.settings.register(MODULE_NAME, 'avalmOffset', {
@@ -31,6 +47,14 @@ Hooks.on("init", () => {
         type: Number,
         default: 1
     });
+
+    game.settings.register(MODULE_NAME, 'gaJournalName', {
+        name: 'Geographica Aventurica Journalname',
+        scope: 'world',
+        config: true,
+        type: String,
+        default: 'GA'
+    });
     
     game.settings.register(MODULE_NAME, 'gaOffset', {
         name: 'Geographia Aventurica PDF Offset',
@@ -39,6 +63,14 @@ Hooks.on("init", () => {
         type: Number,
         default: 1
     });
+
+    game.settings.register(MODULE_NAME, 'hkJournalName', {
+        name: 'Handelsherr und Kiepenkerl Journalname',
+        scope: 'world',
+        config: true,
+        type: String,
+        default: 'H&K'
+    });
     
     game.settings.register(MODULE_NAME, 'hkOffset', {
         name: 'Handelsherr und Kiepenkerl PDF Offset',
@@ -46,6 +78,14 @@ Hooks.on("init", () => {
         config: true,
         type: Number,
         default: 1
+    });
+
+    game.settings.register(MODULE_NAME, 'srdJournalName', {
+        name: 'Stäbe, Ringe, Dschinnenlampen Journalname',
+        scope: 'world',
+        config: true,
+        type: String,
+        default: 'SRD'
     });
     
     game.settings.register(MODULE_NAME, 'srdOffset', {
@@ -56,12 +96,28 @@ Hooks.on("init", () => {
         default: 1
     });
 
+    game.settings.register(MODULE_NAME, 'wdaJournalName', {
+        name: 'Wege der Alchimie Journalname',
+        scope: 'world',
+        config: true,
+        type: String,
+        default: 'WdA'
+    });
+
     game.settings.register(MODULE_NAME, 'wdaOffset', {
         name: 'Wege der Alchimie PDF Offset',
         scope: 'world',
         config: true,
         type: Number,
         default: 1
+    });
+
+    game.settings.register(MODULE_NAME, 'zbaJournalName', {
+        name: 'Zoo-Botanica Aventurica Journalname',
+        scope: 'world',
+        config: true,
+        type: String,
+        default: 'ZBA'
     });
 
     game.settings.register(MODULE_NAME, 'zbaOffset', {

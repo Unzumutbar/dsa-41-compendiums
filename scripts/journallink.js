@@ -99,18 +99,43 @@ export class JournalLink {
     }
 
     openPdfPage(sourceBook, page) {
-        const pageOffset = this.getSourceBookOffset(sourceBook);
-        const bookJournal = game.journal?.find((j) => j.name == sourceBook);
+        const journalName = this.getSourceBookJournalName(sourceBook).trim();
+        const bookJournal = game.journal?.find((j) => j.name.trim() == journalName);
         if(!bookJournal) {
-            this.log(`Unable to find Journal ${sourceBook}.`);
+            this.log(`Unable to find Journal ${journalName}.`);
             return;
         }
 
         const pdfSheetId = bookJournal?.pages.contents[0].id;
         const pdfPageSheet = bookJournal?.sheet?.getPageSheet(pdfSheetId);
+        const pageOffset = this.getSourceBookOffset(sourceBook);
+
         pdfPageSheet.page = page + pageOffset;
         pdfPageSheet.autoLoadPDF = true;
         bookJournal.sheet?.render(true, { collapsed: true });
+    }
+
+    getSourceBookJournalName(sourceBook) {
+        const book = sourceBook.toLowerCase();
+        switch (book) {
+            case 'aa':
+                return game.settings.get(MODULE_NAME, 'aaJournalName');
+            case 'avalm':
+                return game.settings.get(MODULE_NAME, 'avalmJournalName');
+            case 'ga':
+                return game.settings.get(MODULE_NAME, 'gaJournalName');
+            case 'h&k':
+                return game.settings.get(MODULE_NAME, 'hkJournalName');
+            case 'srd':
+                return game.settings.get(MODULE_NAME, 'srdJournalName');
+            case 'wda':
+                return game.settings.get(MODULE_NAME, 'wdaJournalName');
+            case 'zba':
+                return game.settings.get(MODULE_NAME, 'zbaJournalName');
+            default:
+                this.log(`Missing Option for ${sourceBook} Offset.`);
+                return sourceBook;
+        }
     }
 
     getSourceBookOffset(sourceBook) {
