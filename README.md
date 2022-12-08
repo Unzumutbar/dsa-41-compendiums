@@ -23,7 +23,7 @@ Gleiches gilt für die Waffen, Schilde, Rüstungen und sonstige Ausrüstungsgege
 
 ## Moduleinstellungen
 
-- `Kompendium Links anzeigen`: Journal Links zu den jweiligen Gegenständen, Waffen und Kreaturen können ein- oder ausgeblendet werden
+- `Kompendium Links anzeigen`: Journal Links zu den jeweiligen Gegenständen, Waffen und Kreaturen können ein- oder ausgeblendet werden
   - Standard: `true`
 - `Aventurisches Arsenal Journalname`: Namen des PDF Journals *Aventurisches Arsenal* 
   - Standard: `AA`
@@ -63,4 +63,4 @@ Vielen Dank dafür.
 ## Icons
 
 Icons provided under the Creative Commons 3.0 BY from `https://github.com/game-icons/icons`
-Icons made by [Delapouite](https://delapouite.com/), [Lorc](https://lorcblog.blogspot.com/), [Carl Olsen](https://twitter.com/unstoppableCarl),
+Icons made by [Delapouite](https://delapouite.com/), [Lorc](https://lorcblog.blogspot.com/), [Carl Olsen](https://twitter.com/unstoppableCarl), [Skol](https://twitter.com/unstoppableCarl), 
