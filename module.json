@@ -2,7 +2,7 @@
   "name": "dsa-41-compendiums",
   "title": "DSA 4.1 Kompendien",
   "description": "Das Schwarze Auge 4.1 Ausrüstungen für das Foundry Virtual TableTop System",
-  "version": "1.2.1",
+  "version": "1.3.0",
   "authors": [
     {
       "id": "unzumutbar",
@@ -75,8 +75,26 @@
       "entity": "Actor",
       "system": "dsa-41",
       "module": "dsa-4.1-compendiums"
+    },
+    {
+      "name": "undead",
+      "label": "Untote",
+      "path": "./packs/undead.db",
+      "type": "Actor",
+      "entity": "Actor",
+      "system": "dsa-41",
+      "module": "dsa-4.1-compendiums"
+    },
+    {
+      "name": "demons",
+      "label": "Dämonen, Elementare, Dschinns",
+      "path": "./packs/demons.db",
+      "type": "Actor",
+      "entity": "Actor",
+      "system": "dsa-41",
+      "module": "dsa-4.1-compendiums"
     }
   ],
   "manifest": "https://raw.githubusercontent.com/Unzumutbar/dsa-41-compendiums/main/module.json",
-  "download": "https://github.com/Unzumutbar/dsa-41-compendiums/releases/download/v1.2.1/dsa-41-compendiums-v1.2.1.zip"
+  "download": "https://github.com/Unzumutbar/dsa-41-compendiums/releases/download/v1.3.0/dsa-41-compendiums-v1.3.0.zip"
 }

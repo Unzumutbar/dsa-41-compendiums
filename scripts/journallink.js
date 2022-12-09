@@ -122,14 +122,22 @@ export class JournalLink {
                 return game.settings.get(MODULE_NAME, 'aaJournalName');
             case 'avalm':
                 return game.settings.get(MODULE_NAME, 'avalmJournalName');
+            case 'eg':
+                return game.settings.get(MODULE_NAME, 'egJournalName');
             case 'ga':
                 return game.settings.get(MODULE_NAME, 'gaJournalName');
             case 'h&k':
                 return game.settings.get(MODULE_NAME, 'hkJournalName');
             case 'srd':
                 return game.settings.get(MODULE_NAME, 'srdJournalName');
+            case 'tcd':
+                return game.settings.get(MODULE_NAME, 'tcdJournalName');
+            case 'vtuu':
+                return game.settings.get(MODULE_NAME, 'vtuuJournalName');
             case 'wda':
                 return game.settings.get(MODULE_NAME, 'wdaJournalName');
+            case 'wdz':
+                return game.settings.get(MODULE_NAME, 'wdzJournalName');
             case 'zba':
                 return game.settings.get(MODULE_NAME, 'zbaJournalName');
             default:
@@ -145,14 +153,22 @@ export class JournalLink {
                 return game.settings.get(MODULE_NAME, 'aaOffset');
             case 'avalm':
                 return game.settings.get(MODULE_NAME, 'avalmOffset');
+            case 'eg':
+                return game.settings.get(MODULE_NAME, 'egOffset');
             case 'ga':
                 return game.settings.get(MODULE_NAME, 'gaOffset');
             case 'h&k':
                 return game.settings.get(MODULE_NAME, 'hkOffset');
             case 'srd':
                 return game.settings.get(MODULE_NAME, 'srdOffset');
+            case 'tcd':
+                return game.settings.get(MODULE_NAME, 'tcdOffset');
+            case 'vtuu':
+                return game.settings.get(MODULE_NAME, 'vtuuOffset');
             case 'wda':
                 return game.settings.get(MODULE_NAME, 'wdaOffset');
+            case 'wdz':
+                return game.settings.get(MODULE_NAME, 'wdzOffset');
             case 'zba':
                 return game.settings.get(MODULE_NAME, 'zbaOffset');
             default:

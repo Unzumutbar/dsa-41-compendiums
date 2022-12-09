@@ -48,6 +48,21 @@ Hooks.on("init", () => {
         default: 1
     });
 
+    game.settings.register(MODULE_NAME, 'egJournalName', {
+        name: 'Elementare Gewalten Journalname',
+        scope: 'world',
+        config: true,
+        type: String,
+        default: 'GA'
+    });
+    
+    game.settings.register(MODULE_NAME, 'egOffset', {
+        name: 'Elementare Gewalten PDF Offset',
+        scope: 'world',
+        config: true,
+        type: Number,
+        default: 1
+    });
     game.settings.register(MODULE_NAME, 'gaJournalName', {
         name: 'Geographica Aventurica Journalname',
         scope: 'world',
@@ -96,6 +111,38 @@ Hooks.on("init", () => {
         default: 1
     });
 
+    game.settings.register(MODULE_NAME, 'tcdJournalName', {
+        name: 'Tractatus contra Daemones Journalname',
+        scope: 'world',
+        config: true,
+        type: String,
+        default: 'TcD'
+    });
+
+    game.settings.register(MODULE_NAME, 'tcdOffset', {
+        name: 'Tractatus contra Daemones PDF Offset',
+        scope: 'world',
+        config: true,
+        type: Number,
+        default: 1
+    });
+
+    game.settings.register(MODULE_NAME, 'vtuuJournalName', {
+        name: 'Von Toten und Untoten Journalname',
+        scope: 'world',
+        config: true,
+        type: String,
+        default: 'VTuU'
+    });
+
+    game.settings.register(MODULE_NAME, 'vtuuOffset', {
+        name: 'Von Toten und Untoten PDF Offset',
+        scope: 'world',
+        config: true,
+        type: Number,
+        default: 1
+    });
+
     game.settings.register(MODULE_NAME, 'wdaJournalName', {
         name: 'Wege der Alchimie Journalname',
         scope: 'world',
@@ -110,6 +157,22 @@ Hooks.on("init", () => {
         config: true,
         type: Number,
         default: 1
+    });
+
+    game.settings.register(MODULE_NAME, 'wdzJournalName', {
+        name: 'Wege der Zauberei Journalname',
+        scope: 'world',
+        config: true,
+        type: String,
+        default: 'WdZ'
+    });
+
+    game.settings.register(MODULE_NAME, 'wdzOffset', {
+        name: 'Wege der Zauberei PDF Offset',
+        scope: 'world',
+        config: true,
+        type: Number,
+        default: 2
     });
 
     game.settings.register(MODULE_NAME, 'zbaJournalName', {
