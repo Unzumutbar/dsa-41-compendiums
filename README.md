@@ -25,34 +25,8 @@ Gleiches gilt für die Waffen, Schilde, Rüstungen und sonstige Ausrüstungsgege
 
 - `Kompendium Links anzeigen`: Journal Links zu den jeweiligen Gegenständen, Waffen und Kreaturen können ein- oder ausgeblendet werden
   - Standard: `true`
-- `Aventurisches Arsenal Journalname`: Namen des PDF Journals *Aventurisches Arsenal* 
-  - Standard: `AA`
-- `Aventurisches Arsenal PDF Offset`: Seitenoffset der PDF Datei
-  - Standard: `1`
-- `Aventurischer Almanach Journalname`: Namen des PDF Journals *Aventurischer Almanach* 
-  - Standard: `AvAlm`
-- `Aventurischer Almanach PDF Offset`: Seitenoffset der PDF Datei
-  - Standard: `1`
-- `Geographia Aventurica Journalname`: Namen des PDF Journals *Geographia Aventurica* 
-  - Standard: `GA`
-- `Geographia Aventurica PDF Offset`: Seitenoffset der PDF Datei
-  - Standard: `1`
-- `Handelsherr & Kiepenkerl Journalname`: Namen des PDF Journals *Handelsherr & Kiepenkerl* 
-  - Standard: `H&K`
-- `Handelsherr & Kiepenkerl PDF Offset`: Seitenoffset der PDF Datei
-  - Standard: `1`
-- `Stäbe, Ringe, Dschinnenlampen Journalname`: Namen des PDF Journals *Stäbe, Ringe, Dschinnenlampen* 
-  - Standard: `SRD`
-- `Stäbe, Ringe, Dschinnenlampen PDF Offset`: Seitenoffset der PDF Datei
-  - Standard: `1`
-- `Wege der Alchimie Journalname`: Namen des PDF Journals *Wege der Alchimie* 
-  - Standard: `WdA`
-- `Wege der Alchimie PDF Offset`: Seitenoffset der PDF Datei
-  - Standard: `1`
-- `Zoo-Botanica Aventurica`: Namen des PDF Journals *Zoo-Botanica Aventurica* 
-  - Standard: `WdA`
-- `Zoo-Botanica Aventurica PDF Offset`: Seitenoffset der PDF Datei
-  - Standard: `1`
+- Für jedes Quellenbuch gibt es zwei Einstellungen. Der Name des Journals sowie der PDF Offset können individuell konfiguriert werden.
+
 
 
 ## Credits
